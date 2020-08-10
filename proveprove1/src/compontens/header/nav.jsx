@@ -5,8 +5,7 @@ import Hoteller from '../pages/hoteller';
 import Login from '../pages/login';
 import Reservation from '../pages/reservation';
 import Værelser from '../pages/værelser';
-
-
+import Svg from '../img/hotel-overlook-logo2.svg'
 
 
 function Routertest() {
@@ -14,6 +13,7 @@ function Routertest() {
     <Router>
       <header>
         <nav>
+            <img src={Svg} alt=""/>
           <ul>
             <li className="list-inline-item">
               <Link to="/">Forside</Link>

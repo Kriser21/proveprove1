@@ -2,11 +2,37 @@
   margin: 0;
   padding: 0;
 }
+body {
+  position: relative;
+}
 
-.list-inline-item {
+nav {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 5%;
+  grid-template-rows: 1fr;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: black;
+  img {
+  width: 250px;
+  
+  }
+  ul {
+    grid-column: 3;
+  
+    li {
+      display: inline-block;
+    
+    }
+    a{
+      text-decoration: none;
+      color: #ffffff;
+      padding: 14px 16px;
+      display: block;
+      text-align: center;
+    }
+  }
 }
+
