@@ -3,13 +3,19 @@ import React from 'react';
 export default function Program() {
     return(
         <footer>
+              
             <span className="media">
-                <h2>Hoteller og Destionationer </h2>
-                <i class="fab fa-facebook fa-10x"></i>
-                <i class="fab fa-twitter-square fa-10x"></i>
-            </span>
-            <span className="NewsLetter">
-                <h2>TILMELD NYHEDSBREV</h2>
+           <span>© 2019 Hotel Overlook. Alle rettigheder forbeholdt.</span>
+                <p>
+                <i class="fab fa-twitter-square fa-2x"></i> 
+                <i class="fab fa-facebook fa-2x"></i>
+                </p>
+                <p>
+               <span> Hoteller og Destionationer </span>
+               <span> Værelser</span>
+              <span> Reservation </span> 
+              <span>Om Overlook</span>  
+              </p>
             </span>
         </footer>
     )

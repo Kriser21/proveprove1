@@ -1,9 +1,11 @@
 *{
   margin: 0;
   padding: 0;
+ 
 }
 body {
   position: relative;
+  background-color: rgb(197, 195, 195);
 }
 
 nav {
@@ -41,17 +43,23 @@ nav {
 footer {
   color: rgb(77, 75, 75);
   position: relative;
-  bottom: 0;
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-row-gap: 5px;
+ 
   .media {
-    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     background-color: rgb(255, 254, 254);
-    i {
-      color: rgb(77, 75, 75);
+
+  }
+
+}
+
+.forside{
+  p{
+    img{
+      width: 100%;
+      height: 500px;
     }
   }
 }
