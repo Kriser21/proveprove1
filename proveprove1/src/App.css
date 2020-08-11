@@ -83,7 +83,19 @@ footer .media {
   height: 500px;
 }
 
-.hotelle p img {
+.hotelle {
+  position: relative;
+}
+
+.hotelle p {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.hotelle img {
   width: 100%;
   height: 500px;
 }

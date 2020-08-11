@@ -25,26 +25,23 @@ apiData&&
     apiData.items.slice(0, 3).map((track) =>{
         console.log (track);
         return(
-            <div key={track.id} className="HomeContent">
-            <img src={track.image} alt="" />
-            <p>{track.title}</p>
-            <p>{track.teaser}</p>
-            </div>
+            <>
+            
+            </>
          );
     });
 
 return <> {hoteller}</>;
 };
+
 export default function Home(){
     return(
         <section>
             <div className="hotelle">
-            <p>
-                    <img src={Billede} alt=""/>
-                </p>
-                <p>
+            <p> HOTELLER OG DESTINATIONER</p>
+                <img src={Billede} alt=""/>
                    
-                </p>
+                <div></div>
             <Fetch/>
             </div>
         </section>
