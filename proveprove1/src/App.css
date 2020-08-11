@@ -46,6 +46,10 @@ nav ul a {
   text-align: center;
 }
 
+nav ul a a:Hover {
+  background-color: #c5c3c3;
+}
+
 footer {
   color: #4d4b4b;
   position: relative;
