@@ -91,3 +91,45 @@ footer {
     
   }
 }
+.Værelse{
+  position: relative;
+  p{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: rgba(0,0,0, 0.6);
+   color: white;
+  }
+    img{
+      width: 100%;
+      height: 500px;
+    
+  }
+}
+.HomeHotel, .Rooms{
+  margin-left: 15%;
+  margin-right: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 5px;
+  
+  img{
+    width: 100%;
+  }
+  span{
+    display: grid;
+    padding: 5px;
+  }
+}
+
+.Text{
+  h2{
+    margin-left: 15%;
+    padding: 10px;
+  }
+}
+
+.HomeHotel{
+  border-bottom: 2px dashed grey;
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -98,5 +99,53 @@ footer .media {
 .hotelle img {
   width: 100%;
   height: 500px;
+}
+
+.Værelse {
+  position: relative;
+}
+
+.Værelse p {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.Værelse img {
+  width: 100%;
+  height: 500px;
+}
+
+.HomeHotel, .Rooms {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-gap: 5px;
+}
+
+.HomeHotel img, .Rooms img {
+  width: 100%;
+}
+
+.HomeHotel span, .Rooms span {
+  display: -ms-grid;
+  display: grid;
+  padding: 5px;
+}
+
+.Text h2 {
+  margin-left: 15%;
+  padding: 10px;
+}
+
+.HomeHotel {
+  border-bottom: 2px dashed grey;
 }
 /*# sourceMappingURL=App.css.map */
