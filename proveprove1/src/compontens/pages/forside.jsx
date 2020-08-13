@@ -58,7 +58,7 @@ export default function Home(){
     return(
         <section>
             <div className="forside">
-                <p>VELKOMMEN TIL HOTEL OVERLOKKE ONLINE </p>
+                <h3>VELKOMMEN TIL HOTEL OVERLOKKE ONLINE </h3>
                 <img src={Billede} alt=""/>
 
                 </div> 
