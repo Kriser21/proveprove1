@@ -44,9 +44,10 @@ return (
 export default function Home(){
     return(
         <section>
-
-            <img className="Billeder" src={Billede} alt=""/>
-            
+            <div className="Billeder">
+                <h3>Værelser</h3>
+            <img src={Billede} alt=""/>
+             </div>
                  <div className="Værelse">
 
                 <span className="ValgText"> 

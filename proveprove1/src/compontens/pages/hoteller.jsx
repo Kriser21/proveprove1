@@ -64,6 +64,7 @@ const CountryList = props => {
     return (
         
         <div className="HOD">
+             <h3>Hoteller og Destinations </h3>
              <img  src={Billede} alt=""/>
             <div className="Grid">
                 {apiData && apiData?.items.map((item) => {
