@@ -80,4 +80,3 @@ const CountryList = props => {
         </div>
     );
 }
-
