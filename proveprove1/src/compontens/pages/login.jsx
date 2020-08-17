@@ -1,5 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
+import Billede from '../img/overlook-victoria.jpg';
+
+
 export default function Login() {
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
@@ -10,6 +13,12 @@ export default function Login() {
   });
   return (
     <section>
+
+      <div className="Login">
+      <h3>REVERVATION</h3>
+      <img src={Billede} alt=""/>
+  </div>
+
       <form
         onSubmit={(e) => {
           e.preventDefault();

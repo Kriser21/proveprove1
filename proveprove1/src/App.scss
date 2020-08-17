@@ -66,6 +66,7 @@ footer {
    top: 50%;
    left: 10%;
    background-color: rgba(0,0,0, 0.6);
+   box-shadow: 0px 5px red;
   color: white;
   font-size: 25px;
 
@@ -77,6 +78,44 @@ footer {
   
 }
 
+
+.revervation{
+  position: relative;
+  h3{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: rgba(0,0,0, 0.6);
+    box-shadow: 0px 5px red;
+   color: white;
+   font-size: 25px;
+ 
+  }
+     img{
+       width: 100%;
+       height: 250px;
+     }
+   
+ }
+
+ .Login{
+  position: relative;
+  h3{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: rgba(0,0,0, 0.6);
+    box-shadow: 0px 5px red;
+   color: white;
+   font-size: 25px;
+ 
+  }
+     img{
+       width: 100%;
+       height: 250px;
+     }
+   
+ }
 
 .HomeHotel, .Rooms{
   margin-left: 15%;
@@ -134,13 +173,14 @@ top: 50%;
     top: 50%;
     left: 10%;
     background-color: rgba(0,0,0, 0.6);
+    box-shadow: 0px 5px red;
    color: white;
    font-size: 25px;
  
   }
   img{
 width: 100%;
-height: 500px;
+height: 300px;
 }
 }
 
@@ -194,8 +234,9 @@ ul {
     top: 50%;
     left: 10%;
     background-color: rgba(0,0,0, 0.6);
-   color: white;
-   font-size: 25px;
+    box-shadow: 0px 5px red;
+    color: white;
+    font-size: 25px;
  
   }
   img{
